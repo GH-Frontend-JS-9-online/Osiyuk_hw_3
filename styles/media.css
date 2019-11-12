@@ -68,6 +68,65 @@
 	.features_media a {
 		margin-left: 0px;
 	}
+	.about_fork {
+		height: 1500px;
+	}
+	.about_fork h2 {
+		font-size: 45px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.fork_block_wrap {
+		display: flex;
+		flex-direction: column;
+		width: 400px;
+		height: 1300px;
+		align-items: center;
+		justify-content: center;
+	}
+	.fork_block p {
+		width: 400px;
+		height: 62px;
+		color: #ffffff;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 34px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.fork_block img {
+		display: block;
+		margin: auto;
+	}
+	.fork_block {
+		width: 400px;
+		margin-top: 5rem;
+	}
+	.fork_subcription {
+		height: 2500px;
+	}
+	.pricing_flex_wrap {
+		display: flex;
+		flex-direction: column;
+		margin-top: -100px;
+	}
+	.pricing_block {
+		margin: 0;
+		margin-top: 80px;
+	}
+	.pricing_under_text {
+		width: 500px;
+		line-height: 15px;
+	}
+	.fork_subcription h2 {
+		height: 50px;
+		color: #ffffff;
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 30px;
+		margin-top: 30px;
+		text-align: center;
+	}
 }
 
 @media (max-width: 481px) {
@@ -168,5 +227,63 @@
 	}
 	.features_media a {
 		margin-left: 0px;
+	}
+	.about_fork {
+		height: 1500px;
+	}
+	.about_fork h2 {
+		font-size: 35px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.fork_block_wrap {
+		display: flex;
+		flex-direction: column;
+		width: 300px;
+		height: 1300px;
+		align-items: center;
+		justify-content: center;
+	}
+	.fork_block p {
+		width: 300px;
+		height: 62px;
+		color: #ffffff;
+		font-size: 13px;
+		font-weight: 700;
+		line-height: 24px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.fork_block img {
+		display: block;
+		margin: auto;
+	}
+	.fork_block {
+		width: 300px;
+		margin-top: 5rem;
+	}
+	.fork_subcription {
+		height: 2500px;
+	}
+	.pricing_flex_wrap {
+		display: flex;
+		flex-direction: column;
+	}
+	.pricing_block {
+		margin: 0;
+		margin-top: 50px;
+	}
+	.pricing_under_text {
+		width: 300px;
+		line-height: 15px;
+	}
+	.fork_subcription h2 {
+		height: 50px;
+		color: #ffffff;
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 30px;
+		margin-top: 30px;
+		text-align: center;
 	}
 }

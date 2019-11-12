@@ -375,3 +375,157 @@ a {
 	flex-direction: column;
 	align-items: center;
 }
+.about_fork{
+	background: #4b3b4e;
+	height: 100vh;
+	background-image: url(../img/Layer_1.png);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.about_fork h2{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 20.45px;
+    margin-top: 98px;
+}
+.fork_block{
+	width: 326px;
+}
+.fork_block p{
+	width: 326px;
+    height: 62px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+.fork_block img{
+	display: block;
+	margin:auto;
+}
+.fork_block_wrap{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70%;
+	flex-wrap: wrap;
+	width: 1200px;
+}
+.fork_subcription{
+	background: #4b3b4e;
+	height: 100vh;
+	background-image: url(../img/Layer_2.png);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	background-position: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.fork_subcription h2{
+	height: 50px;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 20.45px;
+    margin-top: 30px;
+}
+.pricing_flex_wrap {
+	display: flex;
+}
+
+.pricing_block {
+	width: 257px;
+	height: 457px;
+	background-color: rgba(255, 255, 255, 0.11);
+	margin-left: 30px;
+}
+
+.pricing_block_head {
+	background-color: rgb(255, 255, 255, 0.06);
+	width: 257px;
+	height: 97px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pricing_block_head h3 {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 20.45px;
+	text-transform: uppercase;
+}
+
+.pricing_block_main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pricing_block_main a {
+	width: 160px;
+	height: 42px;
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 100px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 40px;
+	text-transform: uppercase;
+	margin-top: 35px;
+}
+
+.money {
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 90.28px;
+	text-transform: uppercase;
+	font-family: "Montserrat - Bold";
+}
+
+.month {
+	opacity: 0.3;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 90.28px;
+	text-transform: uppercase;
+	border-bottom: 3px solid #8d81ac;
+}
+
+.pricing_block_main p {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 28px;
+	margin-top: 31px;
+	text-align: center;
+}
+
+.pricing_under_text {
+	width: 862px;
+	height: 34px;
+	opacity: 0.8;
+	color: #a291a5;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+}
+
+.pricing_block:hover {
+	background: rgba(57, 45, 61, 0.3);
+	transform: scale(1.15);
+	transition: .2s;
+	transition-timing-function: ease-out;
+}
