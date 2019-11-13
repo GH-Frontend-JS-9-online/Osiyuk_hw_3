@@ -1,5 +1,8 @@
-@media (max-width: 851px) {
-	nav {
+@media (max-width: 900px) {
+	html {
+		overflow-x: hidden;
+	}
+	header nav {
 		display: none;
 	}
 	.wrap {
@@ -115,7 +118,7 @@
 		margin-top: 80px;
 	}
 	.pricing_under_text {
-		width: 500px;
+		width: 480px;
 		line-height: 15px;
 	}
 	.fork_subcription h2 {
@@ -127,10 +130,67 @@
 		margin-top: 30px;
 		text-align: center;
 	}
+	.newsletter_wrap {
+		display: flex;
+		flex-direction: column;
+		width: 500px;
+	}
+	.newsletter_maintext {
+		display: none;
+	}
+	.newsletter_mob_text {
+		display: block;
+		font-size: 30px;
+		text-align: center;
+		color: #323232;
+		font-family: Montserrat;
+		font-weight: 700;
+		line-height: 30px;
+		margin-bottom: 10px;
+	}
+	.newsletter input {
+		width: 330px;
+	}
+	.newsletter button {
+		width: 130px;
+	}
+	.links {
+		height: 2000px;
+	}
+	.links_wrap {
+		width: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	footer {
+		height: 700px;
+	}
+	footer p {
+		font-size: 16px;
+	}
+	.footer_wrap {
+		display: flex;
+		flex-direction: column;
+		width: 500px;
+		justify-content: space-around;
+		align-items: center;
+		align-content: space-around;
+	}
+	.footer_info p {
+		width: 300px;
+	}
+	nav a {
+		font-size: 18px;
+	}
 }
 
 @media (max-width: 481px) {
-	nav {
+	html {
+		overflow-x: hidden;
+	}
+	header nav {
 		display: none;
 	}
 	.hero_head p {
@@ -285,5 +345,52 @@
 		line-height: 30px;
 		margin-top: 30px;
 		text-align: center;
+	}
+	.newsletter_wrap {
+		display: flex;
+		flex-direction: column;
+		width: 300px;
+	}
+	.newsletter_maintext {
+		display: none;
+	}
+	.newsletter_mob_text {
+		display: block;
+		font-size: 25px;
+		text-align: center;
+		color: #323232;
+		font-family: Montserrat;
+		font-weight: 700;
+		line-height: 30px;
+		margin-bottom: 10px;
+	}
+	.newsletter input {
+		width: 180px;
+	}
+	.newsletter button {
+		width: 90px;
+	}
+	.links_wrap {
+		width: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 20px;
+	}
+	.links h4 {
+		font-size: 15px;
+	}
+	footer {
+		height: 700px;
+	}
+	.footer_wrap {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-left: 30px;
+	}
+	.footer_info p {
+		width: 270px;
 	}
 }
